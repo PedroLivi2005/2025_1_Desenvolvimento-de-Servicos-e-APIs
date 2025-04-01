@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="minhaDiv">Lista de Compras</div>
+
+    <input id="item" type="text">
+    <button onclick="addLista()">+</button>
+
+    <script>
+        var minhaDiv = document.getElementById("minhaDiv")
+        var item = document.getElementById("item")
+
+        function addLista(){
+            var novoItem = item.value;
+            if (novoItem) {
+                minhaDiv.innerHTML += "<br>" + novoItem;
+                item.value = ""; // Limpa o campo de entrada após adicionar o item
+            }
+            item.innerHTML += "<br><i></i>"
+            minhaDiv.style.width = "200px"
+            minhaDiv.style.background = "green"
+            minhaDiv.style.color = "#fff" 
+            //rgb(255, 255, 255)
+        }
+
+    </script>
+</body>
+</html>
