@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <lista_clientes>
+     <pessoa>
+         <id>1</id>
+         <nome>Maria</nome>
+         <altura>1.65</altura>
+     </pessoa>
+     <pessoa>
+         <id>2</id>
+         <nome>João</nome>
+         <altura>1.75</altura>
+     </pessoa>
+     <pessoa>
+         <id>3</id>
+         <nome>Artur</nome>
+         <altura>1.73</altura>
+         <qtd>3</qtd>
+     </pessoa>
+ </lista_clientes>
